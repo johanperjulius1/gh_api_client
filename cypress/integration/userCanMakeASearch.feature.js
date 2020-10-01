@@ -4,8 +4,7 @@ describe("Application main view", () => {
   });
 
   it("User can make a seach", () => {
-    cy.get("input").type('johanperjulius1');
-    cy.get('button').click();
+    cy.get("input").type("johanperjulius1");
+    cy.get("button").click();
   });
-  });
-
+});
