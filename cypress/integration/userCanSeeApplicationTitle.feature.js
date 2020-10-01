@@ -8,13 +8,4 @@ describe('Application main view', () => {
       .should('contain', 'GitHub Search engine')
   });    
   
-  it('User can make a seach')
-  cy.get('input').type(johanperjulius1);
-  cy.route({
-    method: "GET",
-    url: "http://localhost:3000/",
-    response: "fixture:githubSearchResponse.json",
-  });
-
-  
 });
