@@ -1,0 +1,5 @@
+User story 1:
+
+As a user
+When clicking on button
+I want information about the user I searched
